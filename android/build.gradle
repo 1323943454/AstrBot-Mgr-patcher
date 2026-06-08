@@ -1,11 +1,8 @@
 allprojects {
     repositories {
-        // 把最全的阿里云中央仓库放在前面喵awa！
-        maven { url 'https://maven.aliyun.com/repository/public' }
-        maven { url 'https://maven.aliyun.com/repository/google' }
-        maven { url 'https://maven.aliyun.com/repository/jcenter' }
         google()
         mavenCentral()
+        maven { url 'https://jitpack.io' }
     }
 }
 
